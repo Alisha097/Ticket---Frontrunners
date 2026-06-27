@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>London Live Prices</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<i class="fa-solid fa-landmark"></i>
+
+<div>
+
+<h2>PricedIn</h2>
+
+
+
+</div>
+
+</div>
+
+<!-- <ul>
+
+<li><a href="#">Events</a></li>
+
+<li><a href="#">Categories</a></li>
+
+<li><a href="#">Today</a></li>
+
+<li><a href="#">This Weekend</a></li>
+
+<li><a href="#">Free Events</a></li>
+
+<li><a href="#">Blog</a></li>
+
+</ul> -->
+
+<div class="right">
+
+<i class="fa-regular fa-heart"></i>
+
+<a href="#">Events</a>
+
+<i class="fa-regular fa-user"></i>
+
+<a href="#">Browse</a>
+
+</div>
+
+</nav>
+
+
+
+<section class="hero">
+
+<div class="overlay">
+
+<div class="hero-content">
+
+<h1>
+
+The price you see<br>
+
+is the price you <span>pay.</span>
+
+</h1>
+
+<p>
+
+Ticketing  platforms add up to 30% in fees at checkout.
+<br>
+PricedIn shows you the full price - broken down,
+
+upfront, before you commit.
+
+</p>
+
+<div class="search-box">
+
+<input type="text" placeholder="Search events, artists, venues">
+
+<input type="date">
+
+<select>
+
+<option>London</option>
+
+<option>Westminster</option>
+
+<option>Camden</option>
+
+<option>Chelsea</option>
+
+</select>
+
+<button>
+
+Search Events
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================
+Popular Events Section
+Place this below the Hero Section
+=========================== -->
+
+
+<section class="features">
+
+    <div class="container feature-row">
+
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fa-solid fa-tags"></i>
+            </div>
+
+            <div>
+                <h4>Actual Prices</h4>
+                <p>We show the real price you'll pay.</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fa-solid fa-shield-heart"></i>
+            </div>
+
+            <div>
+                <h4>No Hidden Fees</h4>
+                <p>The price you see is the price you pay.</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fa-solid fa-ticket"></i>
+            </div>
+
+            <div>
+                <h4>All Events</h4>
+                <p>Concerts, theatre, sports, comedy & more.</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div>
+                <h4>100% London</h4>
+                <p>Every event. Every venue. One city.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ==================== POPULAR EVENTS ===================== -->
+
+<section class="popular-events">
+
+<div class="container">
+
+<div class="heading-row">
+
+    <div>
+
+        <h2>Popular Events in London</h2>
+
+        <div class="categories">
+
+            <button class="active">All Events</button>
+            <button>Music</button>
+            <button>Theatre</button>
+            <button>Comedy</button>
+            <button>Sports</button>
+            <button>Art & Exhibitions</button>
+            <button>Family</button>
+            <button>Free Events</button>
+
+        </div>
+
+    </div>
+
+    <a href="#" class="view-all">
+        View all events
+        <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+</div>
+
+
+
+
+
+<div class="slider-wrapper">
+
+<button class="slider-btn prev">
+<i class="fa-solid fa-chevron-left"></i>
+</button>
+
+<div class="cards" id="cards">
+
+
+
+<!-- CARD 1 -->
+
+<div class="event-card">
+
+<div class="image-placeholder">
+
+<!-- Add image here -->
+
+<i class="fa-regular fa-heart favourite"></i>
+
+</div>
+
+<div class="content">
+
+<span class="category music">MUSIC</span>
+
+<h3>Ed Sheeran<br>+=÷× Tour</h3>
+
+<div class="info">
+<i class="fa-regular fa-calendar"></i>
+Fri, 21 Jun 2024
+</div>
+
+<div class="info">
+<i class="fa-solid fa-location-dot"></i>
+Wembley Stadium
+</div>
+
+<div class="price-row">
+<span>From</span>
+<h4>£74.50</h4>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- CARD 2 -->
+
+<div class="event-card">
+
+<div class="image-placeholder">
+
+<!-- image -->
+
+<i class="fa-regular fa-heart favourite"></i>
+
+</div>
+
+<div class="content">
+
+<span class="category theatre">THEATRE</span>
+
+<h3>Harry Potter and<br>the Cursed Child</h3>
+
+<div class="info">
+<i class="fa-regular fa-calendar"></i>
+Wed, 22 May 2024
+</div>
+
+<div class="info">
+<i class="fa-solid fa-location-dot"></i>
+Palace Theatre
+</div>
+
+<div class="price-row">
+<span>From</span>
+<h4>£39.50</h4>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- CARD 3 -->
+
+<div class="event-card">
+
+<div class="image-placeholder">
+
+<!-- image -->
+
+<i class="fa-regular fa-heart favourite"></i>
+
+</div>
+
+<div class="content">
+
+<span class="category comedy">COMEDY</span>
+
+<h3>Michael McIntyre<br>MACNIFICENT</h3>
+
+<div class="info">
+<i class="fa-regular fa-calendar"></i>
+Sat, 15 Jun 2024
+</div>
+
+<div class="info">
+<i class="fa-solid fa-location-dot"></i>
+The O2 Arena
+</div>
+
+<div class="price-row">
+<span>From</span>
+<h4>£35.00</h4>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- CARD 4 -->
+
+<div class="event-card">
+
+<div class="image-placeholder">
+
+<!-- image -->
+
+<i class="fa-regular fa-heart favourite"></i>
+
+</div>
+
+<div class="content">
+
+<span class="category sports">SPORTS</span>
+
+<h3>Arsenal v Tottenham<br>Hotspur</h3>
+
+<div class="info">
+<i class="fa-regular fa-calendar"></i>
+Sun, 28 Apr 2024
+</div>
+
+<div class="info">
+<i class="fa-solid fa-location-dot"></i>
+Emirates Stadium
+</div>
+
+<div class="price-row">
+<span>From</span>
+<h4>£68.00</h4>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- CARD 5 -->
+
+<div class="event-card">
+
+<div class="image-placeholder">
+
+<!-- image -->
+
+<i class="fa-regular fa-heart favourite"></i>
+
+</div>
+
+<div class="content">
+
+<span class="category exhibition">EXHIBITION</span>
+
+<h3>Van Gogh: The<br>Immersive Experience</h3>
+
+<div class="info">
+<i class="fa-regular fa-calendar"></i>
+Ongoing
+</div>
+
+<div class="info">
+<i class="fa-solid fa-location-dot"></i>
+ExCeL London
+</div>
+
+<div class="price-row">
+<span>From</span>
+<h4>£19.90</h4>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<button class="slider-btn next">
+<i class="fa-solid fa-chevron-right"></i>
+</button>
+
+</div>
+
+
+
+
+
+<div class="trusted">
+
+<i class="fa-regular fa-circle-check"></i>
+
+<strong>Trusted by Londoners.</strong>
+
+<span>
+Real prices. Real events. Real experiences.
+</span>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
