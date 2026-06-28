@@ -82,6 +82,20 @@ const musicEvents = [
                 final: 118.24,
                 url: "https://www.eventbrite.co.uk/"
             },
+            {
+                site: "See Tickets",
+                base: 110.00,
+                hidden_fees: '12% + £2.50',
+                final: 125.7,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 110.00,
+                hidden_fees: '10% + 25p',
+                final: 121.25,
+                url: "https://www.skiddle.com/"
+            },
         ]
     },
 
@@ -113,6 +127,13 @@ const musicEvents = [
                 final: 86.5,
                 url: "https://www.seetickets.com/"
             },
+            {
+                site: "Skiddle",
+                base: 75.00,
+                hidden_fees: '10% + 25p',
+                final: 82.75,
+                url: "https://www.skiddle.com/"
+            },
         ]
     },
 
@@ -131,55 +152,29 @@ const musicEvents = [
                 url: "https://www.ticketmaster.co.uk/"
             },
             {
+                site: "Eventbrite",
+                base: 98.00,
+                hidden_fees: '6.95% + 59p',
+                final: 105.4,
+                url: "https://www.eventbrite.co.uk/"
+            },
+            {
                 site: "See Tickets",
                 base: 98.00,
                 hidden_fees: '12% + £2.50',
                 final: 112.26,
                 url: "https://www.seetickets.com/"
             },
-        ]
-    },
-
-    {
-        title: "Cold Play",
-        date: "Sat, 20 Jun 2026",
-        venue: "The Old Church",
-        category: "MUSIC",
-
-        compare: [
-            {
-                site: "Ticketmaster",
-                base: 250.00,
-                hidden_fees: '13.5% + £2.50',
-                final: 286.25,
-                url: "https://www.ticketmaster.co.uk/"
-            },
-        ]
-    },
-
-    {
-        title: "Billie Eilish",
-        date: "Thu, 7 May 2026",
-        venue: "City Cinema",
-        category: "MUSIC",
-
-        compare: [
-            {
-                site: "Ticketmaster",
-                base: 25.00,
-                hidden_fees: '13.5% + £2.50',
-                final: 30.88,
-                url: "https://www.ticketmaster.co.uk/"
-            },
             {
                 site: "Skiddle",
-                base: 25.00,
+                base: 98.00,
                 hidden_fees: '10% + 25p',
-                final: 27.75,
+                final: 108.05,
                 url: "https://www.skiddle.com/"
             },
         ]
     },
+
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

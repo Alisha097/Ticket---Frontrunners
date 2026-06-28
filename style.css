@@ -49,7 +49,7 @@ nav{
     background:#fff;
 
 }
-
+/* 
 .logo{
 
     display:flex;
@@ -74,6 +74,24 @@ nav{
 
     font-weight:700;
 
+} */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    width: 45px;   /* Change this if you want the logo bigger/smaller */
+    height: auto;
+}
+
+.logo h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
 }
 
 .right{
@@ -1000,4 +1018,8 @@ nav{
     font-size:20px;
 }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d7489d0e7be3905b520e0a16a8001d0919ab32c2

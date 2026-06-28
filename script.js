@@ -148,4 +148,8 @@ if (viewAll) {
 // Console Message
 // ===========================
 
+<<<<<<< HEAD
 console.log("PricedIn Loaded Successfully");
+=======
+console.log("PricedIn Loaded Successfully");
+>>>>>>> d7489d0e7be3905b520e0a16a8001d0919ab32c2
