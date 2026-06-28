@@ -24,35 +24,232 @@ document.querySelectorAll(".favourite").forEach((heart) => {
 
 const musicEvents = [
     {
-        title: "Jack White — Live in London",
-        date: "Tue, 26 Aug 2026",
-        venue: "Hammersmith Apollo",
+        title: "+=÷× Tour - Ed Sheeran",
+        date: "Fri, 21 Jun 2024",
+        venue: "Wembley Stadium",
         category: "MUSIC",
-        image: "images/jack-white.jpg",
 
         compare: [
             {
                 site: "Ticketmaster",
-                base: 120.00,
-                final: 148.50,
-                url: "https://ticketmaster.co.uk/jack-white"
+                base: 150.00,
+                hidden_fees: '13.5% + £2.50',
+                final: 172.75,
+                url: "https://www.ticketmaster.co.uk/"
             },
             {
-                site: "AXS",
-                base: 118.00,
-                final: 142.00,
-                url: "https://axs.com/jack-white"
+                site: "Eventbrite",
+                base: 150.00,
+                hidden_fees: '6.95% + 59p',
+                final: 161.02,
+                url: "https://www.eventbrite.co.uk/"
             },
             {
                 site: "See Tickets",
-                base: 115.00,
-                final: 139.00,
-                url: "https://seetickets.com/jack-white"
-            }
+                base: 150.00,
+                hidden_fees: '12% + £2.50',
+                final: 170.50,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 150.00,
+                hidden_fees: '10% + 25p',
+                final: 165.25,
+                url: "https://www.skiddle.com/"
+            },
         ]
     },
 
-    // add more events...
+    {
+        title: "Alkaline Trio",
+        date: "Fri, 26 Jun 2026",
+        venue: "Jera On Air",
+        category: "MUSIC",
+
+        compare: [
+            {
+                site: "Ticketmaster",
+                base: 110.00,
+                hidden_fees: '13.5% + £2.50',
+                final: 127.35,
+                url: "https://www.ticketmaster.co.uk/"
+            },
+            {
+                site: "Eventbrite",
+                base: 110.00,
+                hidden_fees: '6.95% + 59p',
+                final: 118.24,
+                url: "https://www.eventbrite.co.uk/"
+            },
+            {
+                site: "See Tickets",
+                base: 110.00,
+                hidden_fees: '12% + £2.50',
+                final: 125.7,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 110.00,
+                hidden_fees: '10% + 25p',
+                final: 121.25,
+                url: "https://www.skiddle.com/"
+            },
+        ]
+    },
+
+    {
+        title: "Tight Ends and Friends - Taylor Swift",
+        date: "Wed, 24 Jun 2025",
+        venue: "Brooklyn Bowl Nashville",
+        category: "MUSIC",
+
+        compare: [
+            {
+                site: "Ticketmaster",
+                base: 75.00,
+                hidden_fees: '13.5% + £2.50',
+                final: 87.62,
+                url: "https://www.ticketmaster.co.uk/"
+            },
+            {
+                site: "Eventbrite",
+                base: 75.00,
+                hidden_fees: '6.95% + 59p',
+                final: 80.8,
+                url: "https://www.eventbrite.co.uk/"
+            },
+            {
+                site: "See Tickets",
+                base: 75.00,
+                hidden_fees: '12% + £2.50',
+                final: 86.5,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 75.00,
+                hidden_fees: '10% + 25p',
+                final: 82.75,
+                url: "https://www.skiddle.com/"
+            },
+        ]
+    },
+
+    {
+        title: "Cold Play",
+        date: "Fri, 26 Jun 2026",
+        venue: "Martha's Vineyard Performing Arts Center",
+        category: "MUSIC",
+
+        compare: [
+            {
+                site: "Ticketmaster",
+                base: 98.00,
+                hidden_fees: '13.5% + £2.50',
+                final: 113.73,
+                url: "https://www.ticketmaster.co.uk/"
+            },
+            {
+                site: "Eventbrite",
+                base: 98.00,
+                hidden_fees: '6.95% + 59p',
+                final: 105.4,
+                url: "https://www.eventbrite.co.uk/"
+            },
+            {
+                site: "See Tickets",
+                base: 98.00,
+                hidden_fees: '12% + £2.50',
+                final: 112.26,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 98.00,
+                hidden_fees: '10% + 25p',
+                final: 108.05,
+                url: "https://www.skiddle.com/"
+            },
+        ]
+    },
+
+    {
+        title: "Cold Play",
+        date: "Sat, 20 Jun 2026",
+        venue: "The Old Church",
+        category: "MUSIC",
+
+        compare: [
+            {
+                site: "Ticketmaster",
+                base: 250.00,
+                hidden_fees: '13.5% + £2.50',
+                final: 286.25,
+                url: "https://www.ticketmaster.co.uk/"
+            },
+            {
+                site: "Eventbrite",
+                base: 250.00,
+                hidden_fees: '6.95% + 59p',
+                final: 267.96,
+                url: "https://www.eventbrite.co.uk/"
+            },
+            {
+                site: "See Tickets",
+                base: 250.00,
+                hidden_fees: '12% + £2.50',
+                final: 282.50,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 250.00,
+                hidden_fees: '10% + 25p',
+                final: 275.25,
+                url: "https://www.skiddle.com/"
+            },
+        ]
+    },
+
+    {
+        title: "Billie Eilish",
+        date: "Thu, 7 May 2026",
+        venue: "City Cinema",
+        category: "MUSIC",
+
+        compare: [
+            {
+                site: "Ticketmaster",
+                base: 25.00,
+                hidden_fees: '13.5% + £2.50',
+                final: 30.88,
+                url: "https://www.ticketmaster.co.uk/"
+            },
+            {
+                site: "Eventbrite",
+                base: 25.00,
+                hidden_fees: '6.95% + 59p',
+                final: 27.33,
+                url: "https://www.eventbrite.co.uk/"
+            },
+            {
+                site: "See Tickets",
+                base: 25.00,
+                hidden_fees: '12% + £2.50',
+                final: 30.50,
+                url: "https://www.seetickets.com/"
+            },
+            {
+                site: "Skiddle",
+                base: 25.00,
+                hidden_fees: '10% + 25p',
+                final: 27.75,
+                url: "https://www.skiddle.com/"
+            },
+        ]
+    },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -74,12 +271,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     <tr>
                         <th>Website</th>
                         <th>Base</th>
+                        <th>Hidden_fees</th>
                         <th>Total</th>
                     </tr>
                     ${eventData.compare.map(site => `
                         <tr>
                             <td><a href="${site.url}" target="_blank">${site.site}</a></td>
                             <td>£${site.base.toFixed(2)}</td>
+                            <td>£${site.hidden_fees}</td>
                             <td>£${site.final.toFixed(2)}</td>
                         </tr>
                     `).join("")}
