@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>London Live Prices</title>
+
+    <link rel="stylesheet" href="Concerts.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<i class="fa-solid fa-landmark"></i>
+
+<div>
+
+<h2>PricedIn</h2>
+
+</div>
+
+</div>
+
+<!-- <ul>
+
+<li><a href="#">Events</a></li>
+
+<li><a href="#">Categories</a></li>
+
+<li><a href="#">Today</a></li>
+
+<li><a href="#">This Weekend</a></li>
+
+<li><a href="#">Free Events</a></li>
+
+<li><a href="#">Blog</a></li>
+
+</ul> -->
+
+<div class="right">
+
+<i class="fa-regular fa-heart"></i>
+
+<a href="index.html">Home</a>
+
+</div>
+
+</nav>
+
+<div class="search-bar container">
+    <input type="text" id="searchArtist" placeholder="Search artist…">
+    <input type="date" id="searchDate">
+    <input type="text" id="searchVenue" placeholder="Search venue…">
+
+    <select id="searchCategory">
+        <option value="">All Categories</option>
+        <option value="MUSIC">Music</option>
+        <option value="ROCK">Rock</option>
+        <option value="HIPHOP">HipHop</option>
+    </select>
+
+    <button id="searchBtn" class="primary-btn">Search</button>
+</div>
+
+
+<section class="event-list container">
+
+    <!-- EVENT BLOCK -->
+    <div class="event-block">
+        <div class="event-image">
+            <img src="Ed-Sheeran.jpeg" alt="ED-Sheeran">
+            <i class="fa-regular fa-heart favourite"></i>
+        </div>
+
+        <div class="event-details">
+            <span class="category music">MUSIC</span>
+            <h3>+=÷× Tour - Ed Sheeran</h3>
+
+            <div class="info">
+                <i class="fa-regular fa-calendar"></i>
+                Fri, 21 Jun 2024
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                Wembley Stadium
+            </div>
+
+            <div class="price-row">
+                <button class="primary-btn">COMPARE PRICES</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EVENT BLOCK -->
+    <div class="event-block">
+        <div class="event-image">
+            <img src="Alkaline-Trio.jpeg" alt="Alkaline Trio">
+            <i class="fa-regular fa-heart favourite"></i>
+        </div>
+
+        <div class="event-details">
+            <span class="category music">MUSIC</span>
+            <h3>Alkaline Trio</h3>
+
+            <div class="info">
+                <i class="fa-regular fa-calendar"></i>
+                Fri, 26 Jun 2026
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                Jera On Air
+            </div>
+
+            <div class="price-row">
+                <button class="primary-btn">COMPARE PRICES</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EVENT BLOCK -->
+    <div class="event-block">
+        <div class="event-image">
+            <img src="Taylor Swift.jpeg" alt="Taylor Swift">
+            <i class="fa-regular fa-heart favourite"></i>
+        </div>
+
+        <div class="event-details">
+            <span class="category music">MUSIC</span>
+            <h3>Tight Ends and Friends - Taylor Swift</h3>
+
+            <div class="info">
+                <i class="fa-regular fa-calendar"></i>
+                Wed, 24 Jun 2025
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                Brooklyn Bowl Nashville
+            </div>
+
+            <div class="price-row">
+                <button class="primary-btn">COMPARE PRICES</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EVENT BLOCK -->
+    <div class="event-block">
+        <div class="event-image">
+            <img src="ColdPlay.jpeg" alt="Cold Play">
+            <i class="fa-regular fa-heart favourite"></i>
+        </div>
+
+        <div class="event-details">
+            <span class="category music">MUSIC</span>
+            <h3>Cold Play</h3>
+
+            <div class="info">
+                <i class="fa-regular fa-calendar"></i>
+                Fri, 26 Jun 2026
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                Martha's Vineyard Performing Arts Center
+            </div>
+
+            <div class="price-row">
+                <button class="primary-btn">COMPARE PRICES</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div id="compareModal" class="compare-modal hidden">
+    <div class="compare-content">
+        <span class="close-modal">&times;</span>
+        <h2>Compare Prices</h2>
+        <div id="compareTable"></div>
+    </div>
+</div>
+
+<script src="LiveEvents.js"></script>
+
+</body>
+</html>
+
