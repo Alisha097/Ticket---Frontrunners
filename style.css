@@ -19,11 +19,28 @@ a{
     color:inherit;
 }
 
+.nav-btn {
+    padding: 12px 22px;
+    background: #ff5479;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+
 button{
-    border:none;
+    /* border:none;
     outline:none;
     cursor:pointer;
-    font-family:inherit;
+    font-family:inherit; */
+    padding: 12px 22px;
+    background: #ff5479;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .container{
