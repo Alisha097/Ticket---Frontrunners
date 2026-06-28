@@ -24,10 +24,10 @@ document.querySelectorAll(".favourite").forEach((heart) => {
 
 const musicEvents = [
     {
-        title: "+=÷× Tour - Ed Sheeran",
-        date: "Fri, 21 Jun 2024",
-        venue: "Wembley Stadium",
-        category: "MUSIC",
+        title: "Harry Potter and the cursed child",
+        date: "Thu, 28 May 2026",
+        venue: "Palace Theatre, London West End",
+        category: "THEATRE",
 
         compare: [
             {
@@ -62,10 +62,10 @@ const musicEvents = [
     },
 
     {
-        title: "Alkaline Trio",
+        title: "Unruly Comedy",
         date: "Fri, 26 Jun 2026",
-        venue: "Jera On Air",
-        category: "MUSIC",
+        venue: "London . Big Belly Bar & Comedy Club London",
+        category: "COMEDY",
 
         compare: [
             {
@@ -89,21 +89,14 @@ const musicEvents = [
                 final: 125.7,
                 url: "https://www.seetickets.com/"
             },
-            {
-                site: "Skiddle",
-                base: 110.00,
-                hidden_fees: '10% + 25p',
-                final: 121.25,
-                url: "https://www.skiddle.com/"
-            },
         ]
     },
 
     {
-        title: "Tight Ends and Friends - Taylor Swift",
-        date: "Wed, 24 Jun 2025",
-        venue: "Brooklyn Bowl Nashville",
-        category: "MUSIC",
+        title: "Sculpt&Sip: Creative Pottery Workshop",
+        date: "Mon, 13 Jul 2025",
+        venue: "London · The Ministry, Borough",
+        category: "POTTERY",
 
         compare: [
             {
@@ -112,20 +105,6 @@ const musicEvents = [
                 hidden_fees: '13.5% + £2.50',
                 final: 87.62,
                 url: "https://www.ticketmaster.co.uk/"
-            },
-            {
-                site: "Eventbrite",
-                base: 75.00,
-                hidden_fees: '6.95% + 59p',
-                final: 80.8,
-                url: "https://www.eventbrite.co.uk/"
-            },
-            {
-                site: "See Tickets",
-                base: 75.00,
-                hidden_fees: '12% + £2.50',
-                final: 86.5,
-                url: "https://www.seetickets.com/"
             },
             {
                 site: "Skiddle",
@@ -138,33 +117,12 @@ const musicEvents = [
     },
 
     {
-        title: "Cold Play",
-        date: "Fri, 26 Jun 2026",
-        venue: "Martha's Vineyard Performing Arts Center",
-        category: "MUSIC",
+        title: "Stranger Things",
+        date: "Fri, 7 Jun 2024",
+        venue: "Phoenix Theatre",
+        category: "THEATRE",
 
         compare: [
-            {
-                site: "Ticketmaster",
-                base: 98.00,
-                hidden_fees: '13.5% + £2.50',
-                final: 113.73,
-                url: "https://www.ticketmaster.co.uk/"
-            },
-            {
-                site: "Eventbrite",
-                base: 98.00,
-                hidden_fees: '6.95% + 59p',
-                final: 105.4,
-                url: "https://www.eventbrite.co.uk/"
-            },
-            {
-                site: "See Tickets",
-                base: 98.00,
-                hidden_fees: '12% + £2.50',
-                final: 112.26,
-                url: "https://www.seetickets.com/"
-            },
             {
                 site: "Skiddle",
                 base: 98.00,
